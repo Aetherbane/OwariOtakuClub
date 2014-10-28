@@ -1,0 +1,35 @@
+/*@import url(http://fonts.googleapis.com/css?family=Lato);*/
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+$body-bg:								white;
+$font-family-sans-serif:				'Press Start 2P', sans-serif;
+$navbar-default-bg:						#e74c3c;
+$navbar-default-link-color:				#ff9e00; 
+$navbar-default-brand-color:			yellow;
+$navbar-default-brand-hover-color:		yellow;
+$brand-primary:							#ff9e00;/*button color */
+$jumbotron-bg:							#e74c3c;
+$navbar-default-link-hover-color: 		yellow;
+$jumbotron-color: 						yellow;
+
+@import 'bootstrap'; 
+
+h1 {
+	text-shadow: -2px 2px 0px #000;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.pop a:hover {
+	text-shadow: -2px 2px 0px #000;
+}
+
+.button-pop:hover {
+	box-shadow: -2px 2px 0px #000;
+}
